@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParserCombinatorLab", "ParserCombinatorLab\ParserCombinatorLab.csproj", "{EED3F5E3-0C31-45CB-9A4B-4D1BBCCBD41B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FFB17828-34C8-4107-A57A-96BDEB7C76B9}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EED3F5E3-0C31-45CB-9A4B-4D1BBCCBD41B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EED3F5E3-0C31-45CB-9A4B-4D1BBCCBD41B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EED3F5E3-0C31-45CB-9A4B-4D1BBCCBD41B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EED3F5E3-0C31-45CB-9A4B-4D1BBCCBD41B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
