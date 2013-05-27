@@ -27,6 +27,10 @@ Translated to Sprache, it looks like this:
 ```
 
 `Many` denotes zero or more, `Text` folds the resulting sequence of chars from _Many_ of `Parse.CharExcept` into a single string.
+`StringLiteral` is the class we have defined to represent a StringLiteral in our Abstract Syntax Tree, so the result
+of the above code is mapping directly from text input to objects.
+
+That's pretty cool for a few lines of code.
 
 For a larger example see `ParserTest.cs` and the files defining the parser (`Grammar.cs`) and the Abstract Syntax Tree types (`AstTypes.cs`).
 
@@ -64,7 +68,7 @@ It could be useful for defining for example input validation or data mappings on
 
 # Consider Using Formal Parsers More Often
 It is my observation that writing a compiler is something that only graduates fresh out of university can do.
-After a couple of year, many programmers degrade to a daily routine of building smal hand-written, 
+After a couple of years, many programmers degrade to a daily routine of building smal hand-written, 
 _ad hoc_ parsers, possibly because they remember parser generators and compiler construction as complex activities.
 
 Parser combinators change all that.
